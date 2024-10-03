@@ -1,7 +1,7 @@
 # Branch push
 import matplotlib.pyplot as plt
 
-labels = 'Reason 1', 'Reason 2', 'Reason 3', 'Other'
+labels = 'Diagnosis', 'Visit Reason', 'Medicare Code', 'Other'
 sizes = [45, 30, 15, 10]
 
 fig, ax = plt.subplots()
