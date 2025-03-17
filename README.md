@@ -82,6 +82,21 @@
 10. General demographics of SpecSavers participants (Australia) with 3FAHL > 20dB
 - Plot type: histplot
 - Data: AU_screeners_data.csv
+- x: age
+
+11. Demographics of Specsaver entries with hearing loss
+- Function used: pd.assign, pd.to_numeric, pd.str.contains
+- Data: au_ages
+
+12. Age range of Specsavers entries with hearing loss
+- Functions used: pd.assign, pd.groupby, pd.describe
+- Data: filt_spec_demo
+
+13. Specsavers Jitter 3FAHL Right by Age
+- Plot type: histplot
+- Data: filt_spec_demo
+- x: age + rand()
+
 
 
 
