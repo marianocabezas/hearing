@@ -14,5 +14,5 @@ combined = [f'{x}\n({round(y, 1)})%' for x, y in zip(name_list, perc_list)]
 # save the file
 labels = combined
 frequencies = perc_list
-save_file_name = 'outputs/tree_map.png'
+save_file_name = 'outputs/tree_map_2.png'
 create_tree_map(labels, frequencies, "Visit Reason Treemap", save_file_name)

@@ -100,3 +100,5 @@ ENV/
 *.xcf
 
 **/.DS_Store
+
+.venv/
