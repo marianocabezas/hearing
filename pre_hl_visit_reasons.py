@@ -1,8 +1,10 @@
 from chart_styles.tree_map.tree_map import create_tree_map
 import pandas as pd
+import os
 
+data_dir = "/Users/z5116060/Desktop/GitProjects/hearing/data"
 
-df = pd.read_excel('data/pre_visit_reasons.xlsx')
+df = pd.read_excel(os.path.join(data_dir, 'pre_visit_reasons.xlsx'))
 
 name_list = df['term'].to_list()
 perc_list = df['perc']

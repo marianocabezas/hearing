@@ -1,8 +1,10 @@
 from chart_styles.bar_chart.bar_chart import create_bar_chart
 import pandas as pd
+import os
 
+data_dir = "/Users/z5116060/Desktop/GitProjects/hearing/data"
 
-df = pd.read_excel('data/first_intervention_type.xlsx')
+df = pd.read_excel(os.path.join(data_dir, 'first_intervention_type.xlsx'))
 
 
 # save the file

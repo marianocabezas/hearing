@@ -1,8 +1,11 @@
 from chart_styles.pie_chart.pie_chart import create_pie_chart
 import pandas as pd
+import os
 
 
-df = pd.read_excel('data/intervention_origin.xlsx')
+data_dir = "/Users/z5116060/Desktop/GitProjects/hearing/data"
+
+df = pd.read_excel(os.path.join(data_dir, 'intervention_origin.xlsx'))
 
 
 # save the file
